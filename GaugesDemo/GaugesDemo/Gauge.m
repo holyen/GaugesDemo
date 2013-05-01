@@ -227,7 +227,7 @@
     [values addObject:[NSValue valueWithCATransform3D:CATransform3DRotate(CATransform3DIdentity, [self transToRadian:(gaugeAngle + distance * (i - 2))], 0, 0, 1)]];
     [values addObject:[NSValue valueWithCATransform3D:CATransform3DRotate(CATransform3DIdentity, [self transToRadian:(gaugeAngle + distance * (i - 1))], 0, 0, 1)]];
     
-    anim.values=values;
+    anim.values = values;
     [pointer.layer addAnimation:anim
                          forKey:@"cubeIn"];
     

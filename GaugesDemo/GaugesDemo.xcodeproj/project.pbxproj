@@ -25,6 +25,9 @@
 		66E575A5172B7EC7009654DF /* Gauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E575A4172B7EC7009654DF /* Gauge.m */; };
 		66E575A7172B8237009654DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E575A6172B8237009654DF /* QuartzCore.framework */; };
 		66E575AA172BA828009654DF /* ADGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E575A9172BA828009654DF /* ADGauge.m */; };
+		9EA4A5191730FEAA002504E7 /* needle@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4A5161730FEAA002504E7 /* needle@2x~iphone.png */; };
+		9EA4A51A1730FEAA002504E7 /* needle~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4A5171730FEAA002504E7 /* needle~iphone.png */; };
+		9EA4A51B1730FEAA002504E7 /* speed_indicator_kmph~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4A5181730FEAA002504E7 /* speed_indicator_kmph~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		66E575A6172B8237009654DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		66E575A8172BA828009654DF /* ADGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGauge.h; sourceTree = "<group>"; };
 		66E575A9172BA828009654DF /* ADGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGauge.m; sourceTree = "<group>"; };
+		9EA4A5161730FEAA002504E7 /* needle@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "needle@2x~iphone.png"; sourceTree = "<group>"; };
+		9EA4A5171730FEAA002504E7 /* needle~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "needle~iphone.png"; sourceTree = "<group>"; };
+		9EA4A5181730FEAA002504E7 /* speed_indicator_kmph~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speed_indicator_kmph~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,9 @@
 		66E5759A172B7E99009654DF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9EA4A5161730FEAA002504E7 /* needle@2x~iphone.png */,
+				9EA4A5171730FEAA002504E7 /* needle~iphone.png */,
+				9EA4A5181730FEAA002504E7 /* speed_indicator_kmph~iphone.png */,
 				66E5759B172B7E99009654DF /* gaugeback.png */,
 				66E5759C172B7E99009654DF /* pointer.png */,
 				66E5759D172B7E99009654DF /* pointer1.png */,
@@ -201,6 +210,9 @@
 				66E575A0172B7E99009654DF /* pointer.png in Resources */,
 				66E575A1172B7E99009654DF /* pointer1.png in Resources */,
 				66E575A2172B7E99009654DF /* pointer2.png in Resources */,
+				9EA4A5191730FEAA002504E7 /* needle@2x~iphone.png in Resources */,
+				9EA4A51A1730FEAA002504E7 /* needle~iphone.png in Resources */,
+				9EA4A51B1730FEAA002504E7 /* speed_indicator_kmph~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +350,7 @@
 				66E57599172B7E56009654DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,6 +21,14 @@
     
     CGPoint _centerOfCircle;
     CGFloat _diameter;
+    
+    CGFloat _beginRadian;
+    CGFloat _endRadian;
+    
+    CGFloat _currentRotate;
+    CGFloat _destinationRotate;
+    CGFloat _fromRotate;
+    
 }
 
 - (id)initWithFrame:(CGRect)frame
