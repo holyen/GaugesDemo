@@ -20,7 +20,7 @@
 //    self.test = [[Gauge alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
 //    self.test.center = self.view.center;
 //    [self.view addSubview:self.test];
-    self.adGauge = [[ADGauge alloc] initWithFrame:CGRectMake(0, 0, 300, 300) minValue:<#(CGFloat)#> maxValue:<#(CGFloat)#> totalMarks:<#(NSInteger)#> totalAngle:<#(CGFloat)#>];
+//    self.adGauge = [[ADGauge alloc] initWithFrame:CGRectMake(0, 0, 300, 300) minValue:<#(CGFloat)#> maxValue:<#(CGFloat)#> totalMarks:<#(NSInteger)#> totalAngle:<#(CGFloat)#>];
 }
 
 - (IBAction)change:(id)sender
