@@ -21,7 +21,7 @@
 //    self.test = [[Gauge alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
 //    self.test.center = self.view.center;
 //    [self.view addSubview:self.test];
-    self.adGauge = [[ADGauge alloc] initWithFrame:CGRectMake(50, 100, 100, 100) minValue:0 maxValue:180 totalMarks:10 totalAngle:290];
+    self.adGauge = [[ADGauge alloc] initWithFrame:CGRectMake(50, 100, 120, 120) minValue:0 maxValue:180 totalMarks:10 totalAngle:290];
     [self.view addSubview:self.adGauge];
 }
 

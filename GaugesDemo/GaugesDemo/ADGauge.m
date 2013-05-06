@@ -32,7 +32,7 @@
             _pointerImageView.layer.anchorPoint = CGPointMake(0.5, 1);
 
             NSLog(@"bounds_width:%f &&& bounds_height:%f",BOUNDS_WIDTH,BOUNDS_HEIGHT);
-            _pointerImageView.frame = CGRectMake((BOUNDS_WIDTH - 5) / 2, (BOUNDS_HEIGHT/2) - 86, 10, 86);
+            _pointerImageView.frame = CGRectMake((BOUNDS_WIDTH - 5) / 2, (BOUNDS_HEIGHT/2) - 55, 5, 55);
             [self addSubview:_pointerImageView];
             
             
@@ -50,7 +50,7 @@
 {
     self = [self initWithFrame:frame
                        bgImage:[UIImage imageNamed:@"speed_indicator_kmph.png"] //400 X 400
-                  pointerImage:[UIImage imageNamed:@"pointer2.png"]];//10X86
+                  pointerImage:[UIImage imageNamed:@"pointer.png"]];//5X55
     if (self)
     {
         _minValue = 0.0;
